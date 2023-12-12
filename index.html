@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .body{
+            border: solid thick black;
+            width: 85%;
+            min-height: auto;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(15,1fr);
+        }
+
+        .one{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+            grid-column-start: 1;
+            grid-column-end: 7;
+            grid-row-start: 1;
+            grid-row-end: 7;
+            background-image: url(../assignmentTable/images/vinicius\ -\ Copy.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .two{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        .three{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+
+        .four{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+
+        .five{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+            grid-column-start: 10;
+            grid-column-end: 16;
+            grid-row-start: 1;
+            grid-row-end: 7;
+            background-image: url(../assignmentTable/images/valverdenew\ -\ Copy.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .six{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+
+        .seven{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+
+        .eight{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .nine{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+
+        .ten{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .eleven{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .twelve{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .thirteen{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .fourteen{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .fifteen{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .sixteen{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .seventeen{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .eighteen{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .nineteen{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .twenty{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .twentyone{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+            
+        .twentytwo{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .twentythree{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .twentyfour{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .twentyfive{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .twentysix{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .twentyseven{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+            grid-column-start: 7;
+            grid-column-end: 10;
+            grid-row-start: 7;
+            grid-row-end: 10;
+            background-image: url(../assignmentTable/images/dice-png-transparent-images--png-all-4.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .twentyeight{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .twentynine{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .thirty{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .thirtyone{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .thirtytwo{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .thirtythree{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .thirtyfour{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .thirtyfive{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .thirtysix{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .thirtyseven{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .thirtyeight{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .thirtynine{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .fourty{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .fourtyone{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .fourtytwo{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .fourtythree{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .fourtyfour{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+
+        .fourtyfive{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .fourtysix{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .fourtyseven{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .fourtyeight{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .fourtynine{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .fifty{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .fiftyone{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .fiftytwo{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .fiftythree{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .fiftyfour{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .fiftyfive{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .fiftysix{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .fiftyseven{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .fiftyeight{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+            grid-column-start: 1;
+            grid-column-end: 7;
+            grid-row-start: 10;
+            grid-row-end: 16;
+            background-image: url(../assignmentTable/images/ronaldo\ new\ -\ Copy.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .fiftynine{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .sixty{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .sixtyone{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        .sixtytwo{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+            grid-column-start: 10;
+            grid-column-end: 16;
+            grid-row-start: 10;
+            grid-row-end: 16;
+            background-image: url(../assignmentTable/images/modricnew\ -\ Copy.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        
+        .sixtythree{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        
+        .sixtyfour{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        
+        .sixtyfive{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+            
+        }
+        
+        
+        .sixtysix{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        
+        .sixtyseven{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        
+        .sixtyeight{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        
+        .sixtynine{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        
+        .seventy{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+            
+        }
+        
+        
+        .seventyone{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        
+        .seventytwo{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        
+        .seventythree{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        
+        .seventyfour{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        
+        .seventyfive{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        
+        .seventysix{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        
+        .seventyseven{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        
+        .seventyeight{
+            /* background-color: purple; */
+            padding: 2rem;
+            border: 3px solid;
+        }
+        
+        
+        /* .seventynine{
+            background-color: purple;
+            padding: 2rem;
+            border: 10px solid;
+        }
+        
+        
+        .eighty{
+            background-color: purple;
+            padding: 2rem;
+            border: 10px solid;
+        }
+        
+        
+        .eightyone{
+            background-color: purple;
+            padding: 2rem;
+            border: 10px solid;
+        }
+        
+        
+        .eightytwo{
+            background-color: purple;
+            padding: 2rem;
+            border: 10px solid;
+        }
+        
+        
+        .eightythree{
+            background-color: purple;
+            padding: 2rem;
+            border: 10px solid;
+        }
+        
+        
+        .eightyfour{
+            background-color: purple;
+            padding: 2rem;
+            border: 10px solid;
+        }
+        
+        
+        .eightyfive{
+            background-color: purple;
+            padding: 2rem;
+            border: 10px solid;
+        }
+        
+        
+        .eightysix{
+            background-color: purple;
+            padding: 2rem;
+            border: 10px solid;
+        }
+        
+        
+        .eightyseven{
+            background-color: purple;
+            padding: 2rem;
+            border: 10px solid;
+        }
+        
+        
+        .eightyeight{
+            background-color: purple;
+            padding: 2rem;
+            border: 10px solid;
+        }
+        
+        
+        .eightynine{
+            background-color: purple;
+            padding: 2rem;
+            border: 10px solid;
+        }
+        
+        
+        .ninety{
+            background-color: purple;
+            padding: 2rem;
+            border: 10px solid;
+        }
+        
+        
+        .ninetyone{
+            background-color: purple;
+            padding: 2rem;
+            border: 10px solid;
+        }
+        
+        
+        .ninetytwo{
+            background-color: purple;
+            padding: 2rem;
+            border: 10px solid;
+        }
+        .ninetythree{
+            background-color: purple;
+            padding: 2rem;
+            border: 10px solid;
+        }
+        .ninetyfour{
+            background-color: purple;
+            padding: 2rem;
+            border: 10px solid;
+        }
+        .ninetyfive{
+            background-color: purple;
+            padding: 2rem;
+            border: 10px solid;
+        }
+        .ninetysix{
+            background-color: purple;
+            padding: 2rem;
+            border: 10px solid;
+        }
+        .ninetyseven{
+            background-color: purple;
+            padding: 2rem;
+            border: 10px solid;
+        }
+        .ninetyeight{
+            background-color: purple;
+            padding: 2rem;
+            border: 10px solid;
+        }
+        .ninetynine{
+            background-color: purple;
+            padding: 2rem;
+            border: 10px solid;
+        }
+
+        .hundred{
+            background-color: purple;
+            padding: 2rem;
+            border: 10px solid;
+        } */
+    </style>
+</head>
+<body>
+    
+    <div class="body">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+        <div class="five"></div>
+        <div class="six"></div>
+        <div class="seven"></div>
+        <div class="eight"></div>
+        <div class="nine"></div>
+        <div class="ten"></div>
+        <div class="eleven"></div>
+        <div class="twelve"></div>
+        <div class="thirteen"></div>
+        <div class="fourteen"></div>
+        <div class="fifteen"></div>
+        <div class="sixteen"></div>
+        <div class="seventeen"></div>
+        <div class="eighteen"></div>
+        <div class="nineteen"></div>
+        <div class="twenty"></div>
+        <div class="twentyone"></div>
+        <div class="twentytwo"></div>
+        <div class="twentythree"></div>
+        <div class="twentyfour"></div>
+        <div class="twentyfive"></div>
+        <div class="twentysix"></div>
+        <div class="twentyseven"></div>
+        <div class="twentyeight"></div>
+        <div class="twentynine"></div>
+        <div class="thirty"></div>
+        <div class="thirtyone"></div>
+        <div class="thirtytwo"></div>
+        <div class="thirtythree"></div>
+        <div class="thirtyfour"></div>
+        <div class="thirtyfive"></div>
+        <div class="thirtysix"></div>
+        <div class="thirtyseven"></div>
+        <div class="thirtyeight"></div>
+        <div class="thirtynine"></div>
+        <div class="fourty"></div>
+        <div class="fourtyone"></div>
+        <div class="fourtytwo"></div>
+        <div class="fourtythree"></div>
+        <div class="fourtyfour"></div>
+        <div class="fourtyfive"></div>
+        <div class="fourtysix"></div>
+        <div class="fourtyseven"></div>
+        <div class="fourtyeight"></div>
+        <div class="fourtynine"></div>
+        <div class="fifty"></div>
+        <div class="fiftyone"></div>
+        <div class="fiftytwo"></div>
+        <div class="fiftythree"></div>
+        <div class="fiftyfour"></div>
+        <div class="fiftyfive"></div>
+        <div class="fiftysix"></div>
+        <div class="fiftyseven"></div>
+        <div class="fiftyeight"></div>
+        <div class="fiftynine"></div>
+        <div class="sixty"></div>
+        <div class="sixtyone"></div>
+        <div class="sixtytwo"></div>
+        <div class="sixtythree"></div>
+        <div class="sixtyfour"></div>
+        <div class="sixtyfive"></div>
+        <div class="sixtysix"></div>
+        <div class="sixtyseven"></div>
+        <div class="sixtyeight"></div>
+        <div class="sixtynine"></div>
+        <div class="seventyone"></div>
+        <div class="seventytwo"></div>
+        <div class="seventythree"></div>
+        <div class="seventyfour"></div>
+        <div class="seventyfive"></div>
+        <div class="seventysix"></div>
+        <div class="seventyseven"></div>
+        <div class="seventyeight"></div>
+        <div class="seventynine"></div>
+        <div class="eighty"></div>
+        <div class="eightyone"></div>
+        <div class="eightytwo"></div>
+        <div class="eightythree"></div>
+        <div class="eightyfour"></div>
+        <div class="eightyfive"></div>
+        <div class="eightysix"></div>
+        <div class="eightyseven"></div>
+        <div class="eightyeight"></div>
+        <div class="eightynine"></div>
+        <div class="ninetyone"></div>
+        <div class="ninetytwo"></div>
+        <div class="ninetythree"></div>
+        <div class="ninetyfour"></div>
+        <div class="ninetyfive"></div>
+        <div class="ninetysix"></div>
+        <div class="ninetyseven"></div>
+        <div class="ninetyeight"></div>
+        <div class="ninetynine"></div>
+        <div class="hundred"></div>
+        
+    </div>
+</body>
+</html>
